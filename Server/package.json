@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
@@ -16,4 +16,6 @@
     "mongoose": "^8.16.0",
     "openai": "^5.5.1"
   }
+  
 }
+
