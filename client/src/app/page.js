@@ -11,7 +11,7 @@ export default function Home() {
     setLoading(true);
     setReply("");
     try {
-      const res = await fetch("http://localhost:5000/api/ask", {
+      const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/ask`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ prompt }),
